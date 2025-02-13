@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/8ad6dd424b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div>
+
+  <!-- <img src="Sky video.jpg" alt="background" class="background"> -->
+  <!-- Dark/Light Mode Toggle -->
+  <!-- <div class="mode-toggle">
+    <button id="toggleMode"> <i class="fa-solid fa-moon"></i> </button>
+  </div> -->
+
+  <!-- Search Container -->
+  <div class="search-container">
+    <input type="text" id="cityInput" placeholder="Enter city">
+    <button id="searchBtn">Search</button>
+  </div>
+  <!--loading indicator-->
+  <div id="loading" class="loading">loading...</div>
+
+</div>
+  <!-- Weather Display -->
+  <div id="weatherInfo" class="weather-info">
+    <h1 id="cityName"></h1>
+    <h2 id="temperature"></h2>
+    <img id="weatherIcon" src="" alt="">
+    <p id="weatherType"></p>
+    <h2 id="Feels_like"></h2>
+    <h2 id="humidity"></h2>
+    <h2 id="sea_level"></h2>
+  </div>
+
+  <!-- Hourly Forecast -->
+  <div id="hourlyForecast" class="hourly-forecast">
+    <h3>Hourly Forecast</h3>
+    <div id="forecastContainer"></div>
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
