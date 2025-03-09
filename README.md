@@ -4,7 +4,7 @@ A simple and responsive **Weather App** built using **HTML, CSS, and JavaScript*
 
 ## 🔗 Live Demo
 
-[View Weather App Live](https://ammarkashifbhatti.github.io/weather-app/) ☁️
+[View Weather App Live](https://what-weather-app.netlify.app/) ☁️
 
 ## 📂 Project Structure
 
@@ -15,7 +15,7 @@ A simple and responsive **Weather App** built using **HTML, CSS, and JavaScript*
 
 ## ⚙️ Features
 
-- 🌍 Search weather by city name
+- 🌍 Search for weather by city name
 - 🌡️ Real-time temperature, humidity, and weather conditions
 - 💨 Wind speed details
 - 📸 Weather icons based on conditions
@@ -37,3 +37,27 @@ To run the app locally:
    ```bash
    git clone https://github.com/Ammarkashifbhatti/weather-app.git
 
+## 📸 Screenshots
+![Uploading image.png…]()
+
+
+## 💡 Future Improvements
+
+ - Add search history and autocomplete
+ - Show 5-day forecast
+ - Add location-based weather (using Geolocation API)
+ - Improve UI/UX design
+ - Add loading animations or error handling
+
+## 🙌 Contributing
+
+Want to enhance the app or add more features? Fork the repo and submit a pull request — contributions are welcome!
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+## 👨‍💻 Author
+
+ - [Ammar Kashif Bhatti](https://github.com/Ammarkashifbhatti)
+ - [Muhammad Ali](https://github.com/sheikh-ali3)
